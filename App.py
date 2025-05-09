@@ -1,11 +1,7 @@
+# filepath: c:\Users\danie\Documents\Voluntariado\App\Menu_planner\App.py
 import streamlit as st
 
 # Title of the app
-st.title("My First Streamlit App")
+st.title("Menu Planner")
 
-# Input from the user
-name = st.text_input("Enter your name:")
-
-# Display a message
-if name:
-    st.write(f"Hello, {name}! Welcome to Streamlit!")
+st.write("Welcome to the Menu Planner app! Use the sidebar to navigate between pages.")
